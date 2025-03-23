@@ -48,7 +48,8 @@ def show_pages(page_name):
 
 page = st.sidebar.selectbox(
     'Navegação',
-    ['Inicio','Sobre','Projetos','Contatos']
+    ['Inicio','Sobre',
+    'Projetos','Contatos']
 )
 
 # Exibe o conteúdo da página selecionada ou a página inicial
